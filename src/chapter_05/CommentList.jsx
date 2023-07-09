@@ -22,7 +22,7 @@ function CommentList(props) {
       {comments.map((comment) => {
         return (
           <Comment name={comment.name}  comment={comment.comment}/>
-          );
+        );
       })}
     </div>
   );
