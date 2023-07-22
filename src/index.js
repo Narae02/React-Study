@@ -12,6 +12,7 @@ import NotificationList from './chapter_06/NotificationList';
 import Accommodate from './chapter_07/Accommodate';
 import ConfirmButton from './chapter_08/ConfirmButton';
 import ConfirmButtonFunction from './chapter_08/ConfirmButtonFunction';
+import LandingPage from './chapter_09/LandingPage';
 
 // const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -67,12 +68,21 @@ import ConfirmButtonFunction from './chapter_08/ConfirmButtonFunction';
   // );
 
   //chapter_08/ConfirmButton
+  // const root = ReactDOM.createRoot(document.getElementById('root'));
+  // root.render(
+  //   <React.StrictMode>
+  //     <ConfirmButtonFunction />
+  //   </React.StrictMode>
+  // );
+
+  //chapter_09/LandingPage
   const root = ReactDOM.createRoot(document.getElementById('root'));
   root.render(
     <React.StrictMode>
-      <ConfirmButtonFunction />
+      <LandingPage />
     </React.StrictMode>
   );
+
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
