@@ -13,6 +13,7 @@ import Accommodate from './chapter_07/Accommodate';
 import ConfirmButton from './chapter_08/ConfirmButton';
 import ConfirmButtonFunction from './chapter_08/ConfirmButtonFunction';
 import LandingPage from './chapter_09/LandingPage';
+import AttendanceBook from './chapter_10/AttendanceBook';
 
 // const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -76,12 +77,21 @@ import LandingPage from './chapter_09/LandingPage';
   // );
 
   //chapter_09/LandingPage
-  const root = ReactDOM.createRoot(document.getElementById('root'));
-  root.render(
-    <React.StrictMode>
-      <LandingPage />
-    </React.StrictMode>
-  );
+  // const root = ReactDOM.createRoot(document.getElementById('root'));
+  // root.render(
+  //   <React.StrictMode>
+  //     <LandingPage />
+  //   </React.StrictMode>
+  // );
+
+    //chapter_10/AttendanceBook
+    //list와 key를 사용해서 출석부 컴포넌트 만들기
+    const root = ReactDOM.createRoot(document.getElementById('root'));
+    root.render(
+      <React.StrictMode>
+        <AttendanceBook />
+      </React.StrictMode>
+    );
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
