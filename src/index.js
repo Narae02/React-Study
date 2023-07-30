@@ -14,6 +14,7 @@ import ConfirmButton from './chapter_08/ConfirmButton';
 import ConfirmButtonFunction from './chapter_08/ConfirmButtonFunction';
 import LandingPage from './chapter_09/LandingPage';
 import AttendanceBook from './chapter_10/AttendanceBook';
+import SignUp from './chapter_11/SignUp';
 
 // const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -86,12 +87,22 @@ import AttendanceBook from './chapter_10/AttendanceBook';
 
     //chapter_10/AttendanceBook
     //list와 key를 사용해서 출석부 컴포넌트 만들기
+    // const root = ReactDOM.createRoot(document.getElementById('root'));
+    // root.render(
+    //   <React.StrictMode>
+    //     <AttendanceBook />
+    //   </React.StrictMode>
+    // );
+
+    //chapter_11/SignUp
+    //form태그 사용하여 사용자 정보 입력 받기
     const root = ReactDOM.createRoot(document.getElementById('root'));
     root.render(
       <React.StrictMode>
-        <AttendanceBook />
+        <SignUp />
       </React.StrictMode>
     );
+
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
